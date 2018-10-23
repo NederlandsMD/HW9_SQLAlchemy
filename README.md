@@ -1,9 +1,5 @@
 # Surfs Up!
 
-![surfs-up.jpeg](Images/surfs-up.jpeg)
-
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
-
 ## Step 1 - Climate Analysis and Exploration
 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
@@ -42,7 +38,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Which station has the highest number of observations?
 
-  * Hint: You may need to use functions such as `func.min`, `func.max`, `func.avg`, and `func.count` in your queries.
+  * Use functions such as `func.min`, `func.max`, `func.avg`, and `func.count` in your queries.
 
 * Design a query to retrieve the last 12 months of temperature observation data (tobs).
 
@@ -88,7 +84,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 ## Step 2 - Climate App
 
-Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+After completing initial analysis, design a Flask API based on the queries that developed.
 
 * Use FLASK to create your routes.
 
@@ -118,12 +114,9 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
-## Hints
+## Methods
 
-* You will need to join the station and measurement tables for some of the analysis queries.
+* Join the station and measurement tables for some of the analysis queries.
 
-* Use Flask `jsonify` to convert your API data into a valid JSON response object.
+* Use Flask `jsonify` to convert API data into a valid JSON response object.
 
-## Copyright
-
-Data Boot Camp ©2018. All Rights Reserved.
